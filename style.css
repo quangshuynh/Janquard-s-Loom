@@ -1,0 +1,163 @@
+/***Default***/
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/***Font***/
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+@font-face {
+    font-family: 'circular';
+    src: url('fonts/circular.woff2') format('woff2'),
+         url('fonts/circular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'din';
+    src: url('fonts/din.woff2') format('woff2'),
+         url('fonts/din.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/***Text***/
+h2 {
+  font-family: 'Circular';
+  font-size: 43px;
+  color: black;
+  font-weight: 500;
+  margin: 2px 0px 0px 0px;
+  padding: 0;
+  vertical-align: baseline;
+}
+h3 {
+  font-family: 'Din';
+  font-size: 25px;
+  color: rgb(46, 46, 46);
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: 'Din';
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+figcaption {
+  font-family: 'Din';
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+/***Images***/
+.right {
+  padding-right: 53px;
+}
+
+/***Header***/
+.header {
+  width: 100%;
+  height: 90px;
+  display: block;
+  background-color: #194d41
+}
+.header2 {
+  width: 550px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #257361
+}
+.headerborder {
+  border: 2px solid black;
+  height: 86px;
+}
+/***Box***/
+.box {
+  display: inline-block;
+  width: 651px;
+  height: 651px;
+  padding: 40px 291px 40px 40px;
+  margin: 10px;
+}
+.box2 {
+  width: 651px;
+  height: 651px;
+  background-color: #197851;
+  float: left;
+  border: 1px solid black;
+  padding: 40px;
+  margin: 10px;
+  opacity: 0.9;
+}
+.box3 {
+  display: inline-block;
+  width: 651px;
+  height: 651px;
+  padding: 40px;
+  margin: 10px 10px 10px 10px;
+}
+
+/***Links***/
+a {
+  background:
+     linear-gradient(
+       to bottom, #eb9c60 0%,
+       #eb9c60 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .3s;
+}
+a:link {
+  color: #60a4e0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #c568ed;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #e4e87d;
+  background-color: transparent;
+  text-decoration: underline;
+  background-size: 4px 50px;
+}
+a:active {
+  color: #401c6b;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/***Background***/
+body{
+  background-image: url("https://cdn.discordapp.com/attachments/602508405386510336/902313996986765342/background.png");
+}
+
+/***Footer***/
+.footer {
+  position: fixed;
+  padding: 0px 0px 0px 0px;  
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  background: #257361;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Circular';
+}
+.footerborder {
+  border: 2px solid black;
+  height: 65px;
+}
